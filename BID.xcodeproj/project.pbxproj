@@ -15,6 +15,8 @@
 		E48068AF15669CBE00C0F373 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E48068AE15669CBE00C0F373 /* AppDelegate.m */; };
 		E48068B215669CBE00C0F373 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48068B015669CBE00C0F373 /* MainStoryboard.storyboard */; };
 		E48068B515669CBE00C0F373 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48068B415669CBE00C0F373 /* ViewController.m */; };
+		E48068BD1566A06600C0F373 /* BIDTaskListController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48068BC1566A06600C0F373 /* BIDTaskListController.m */; };
+		E48068C01566B30D00C0F373 /* BIDStaticCellsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48068BF1566B30D00C0F373 /* BIDStaticCellsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,19 @@
 		E480689E15669CBE00C0F373 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E48068A015669CBE00C0F373 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E48068A215669CBE00C0F373 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E48068A615669CBE00C0F373 /* BID-Info.plist */ = {isa = PBXFileReference; path = "BID-Info.plist"; sourceTree = "<group>"; };
+		E48068A615669CBE00C0F373 /* BID-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BID-Info.plist"; sourceTree = "<group>"; };
 		E48068A815669CBE00C0F373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E48068AA15669CBE00C0F373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E48068AC15669CBE00C0F373 /* BID-Prefix.pch */ = {isa = PBXFileReference; path = "BID-Prefix.pch"; sourceTree = "<group>"; };
-		E48068AD15669CBE00C0F373 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E48068AC15669CBE00C0F373 /* BID-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BID-Prefix.pch"; sourceTree = "<group>"; };
+		E48068AD15669CBE00C0F373 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E48068AE15669CBE00C0F373 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E48068B115669CBE00C0F373 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E48068B315669CBE00C0F373 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E48068B315669CBE00C0F373 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E48068B415669CBE00C0F373 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E48068BB1566A06600C0F373 /* BIDTaskListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDTaskListController.h; sourceTree = "<group>"; };
+		E48068BC1566A06600C0F373 /* BIDTaskListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDTaskListController.m; sourceTree = "<group>"; };
+		E48068BE1566B30D00C0F373 /* BIDStaticCellsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDStaticCellsController.h; sourceTree = SOURCE_ROOT; };
+		E48068BF1566B30D00C0F373 /* BIDStaticCellsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDStaticCellsController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,10 @@
 				E48068B015669CBE00C0F373 /* MainStoryboard.storyboard */,
 				E48068B315669CBE00C0F373 /* ViewController.h */,
 				E48068B415669CBE00C0F373 /* ViewController.m */,
+				E48068BB1566A06600C0F373 /* BIDTaskListController.h */,
+				E48068BC1566A06600C0F373 /* BIDTaskListController.m */,
+				E48068BE1566B30D00C0F373 /* BIDStaticCellsController.h */,
+				E48068BF1566B30D00C0F373 /* BIDStaticCellsController.m */,
 				E48068A515669CBE00C0F373 /* Supporting Files */,
 			);
 			path = BID;
@@ -163,6 +173,8 @@
 				E48068AB15669CBE00C0F373 /* main.m in Sources */,
 				E48068AF15669CBE00C0F373 /* AppDelegate.m in Sources */,
 				E48068B515669CBE00C0F373 /* ViewController.m in Sources */,
+				E48068BD1566A06600C0F373 /* BIDTaskListController.m in Sources */,
+				E48068C01566B30D00C0F373 /* BIDStaticCellsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
